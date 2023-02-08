@@ -2,5 +2,5 @@
 2) Adjust any alert severities you want
 3) Adjust variables in script for your VMware environment
 4) Run the script
-  4a) Requires PowerCLI to be install
-  4b) install-module -name VMware.PowerCLI
+4a) Requires PowerCLI to be install
+4b) install-module -name VMware.PowerCLI
