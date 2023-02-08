@@ -1,0 +1,150 @@
+Name,Description,Priority
+Active Directory Service Health,Default alarm to monitor changes for the health test 'Active Directory Service Health',Low
+Appliance Management Health Alarm,Appliance Management service alarm to monitor health status,Low
+Autodeploy Disk Exhaustion on vc01,Alarm that monitors vSphere Autodeploy File System Resource Exhaustion. (vc01.stc.local),Low
+Backup job status,Default alarm to monitor backup job status.,Low
+Boot Disk Exhaustion on vc01,Alarm that monitors vSphere Boot File System Resource Exhaustion. (vc01.stc.local),Medium
+Cannot connect to storage,Default alarm to monitor host connectivity to storage device,High
+Cannot find vSphere HA master agent,Default alarm to alert when vCenter Server has been unable to connect to a vSphere HA master agent for a prolonged period,High
+Certificate Status,Default alarm that monitors whether a certificate is getting close to its expiration date.,Medium
+Cis License Health Alarm,Cis License service alarm to monitor health status,Low
+Component Manager Service Health Alarm,Default alarm that monitors the health status of Component Manager Service.,Medium
+Content Library Service Health Alarm,Default alarm that monitors the health status of the VMware Content Library Service.,Low
+Core and Inventory Disk Exhaustion on vc01,Alarm that monitors vSphere Core and Inventory File System Resource Exhaustion. (vc01.stc.local),Low
+CPU Exhaustion on vc01,Alarm that monitors vSphere CPU Resource Exhaustion. (vc01.stc.local),Low
+Data Service Health Alarm,Data Service service alarm to monitor health status,Medium
+Database Health Alarm,Default alarm that monitors the database health status.,High
+Datastore capability alarm,Default alarm that is triggered when the capability status of volumes backing the datastore changes,Low
+Datastore cluster is out of space,Alarm that monitors when a datastore cluster is out of space,High
+Datastore compliance alarm,Default alarm that is triggered when the virtual disk on the datastore goes out of compliance with the object-based storage,Low
+Datastore is in multiple datacenters,Datastore in a datastore cluster is visible in more than one datacenter,Low
+Datastore usage on disk,Default alarm to monitor datastore disk usage,Medium
+Diagnostics Disk Exhaustion on vc01,Alarm that monitors vSphere Diagnostics File System Resource Exhaustion. (vc01.stc.local),Low
+Diskchain Using Mixed Keys Alarm,Alarm to notify that a diskchain is encrypted with mixed keys,Low
+ESX Agent Manager Health Alarm,ESX Agent Manager service alarm to monitor health status,Low
+ESXi Dump Collector Disk Exhaustion on vc01,Alarm that monitors vSphere ESXi Dump Collector File System Resource Exhaustion. (vc01.stc.local),Low
+ESXi Host Certificate Status,Alarm to indicate certificate status of an ESXi host,Medium
+Exit standby error,Default alarm to monitor if a host cannot exit standby mode,Low
+Expired host license,Default alarm to monitor for expired host license or evaluation period.,Medium
+Expired host time-limited license,Default alarm to monitor for expired host time-limited license.,Medium
+Expired vCenter Server license,Default alarm to monitor for expired vCenter Server license or evaluation period.,Medium
+Expired vCenter Server time-limited license,Default alarm to monitor for expired vCenter Server time-limited license.,Medium
+Failover Failed Alarm,Alarm to indicate that failover has failed,High
+Health status changed alarm,Default alarm to monitor changes to service and extension health status,Low
+Host Baseboard Management Controller status,Monitors the status of the Baseboard Management Controller. See the host's Hardware Status tab for more details.,Low
+Host battery status,Default alarm to monitor batteries.  See the host's Hardware Status tab for more details.,High
+Host connection and power state,Default alarm to monitor host connection and power state,High
+Host connection failure,Default alarm to monitor host connection failure,High
+Host CPU usage,Default alarm to monitor host CPU usage,High
+Host Crypto Disabled Alarm,Alarm to notify that host is crypto disabled.,Low
+Host error,Default alarm to monitor host error and warning events,Medium
+Host hardware fan status,Default alarm to monitor fans.  See the host's Hardware Status tab for more details.,High
+Host hardware power status,Default alarm to monitor power.  See the host's Hardware Status tab for more details.,High
+Host hardware sensor state,Default alarm to monitor sensor state change.  See the host's Hardware Status tab for more details.,High
+Host hardware system board status,Default alarm to monitor system boards.  See the host's Hardware Status tab for more details.,High
+Host hardware temperature status,Default alarm to monitor temperature.  See the host's Hardware Status tab for more details.,High
+Host hardware voltage,Default alarm to monitor voltage.  See the host's Hardware Status tab for more details.,High
+Host has lost time synchronization,Review the host Time Service Configuration and current operational status report.,Medium
+Host IP Address Conflict Alarm,Default alarm to indicate that the host has taken an IP address that conflicts with another host.,High
+Host IPMI System Event Log status,Monitors the fullness of the IPMI System Event Log.  See the host's Hardware Status tab for more details.,High
+Host memory status,Default alarm to monitor memory.  See the host's Hardware Status tab for more details.,High
+Host memory usage,Default alarm to monitor host memory usage,Medium
+Host processor status,Default alarm to monitor processors.  See the host's Hardware Status tab for more details.,High
+Host Requires Encryption Mode Enabled Alarm,Alarm to indicate that the host requires encryption mode enabled.,Low
+Host storage status,Default alarm to monitor storage.  See the host's Hardware Status tab for more details.,High
+Host TPM attestation alarm,Default alarm that indicates host TPM attestation failure.,Medium
+Host virtual flash resource status,Default alarm to monitor the VMware Flash Read Cache resource status on the host,Low
+Host virtual flash resource usage,Default alarm to monitor the VMware Flash Read Cache resource usage on the host,Low
+Hybrid vCenter Service Health Alarm,Default alarm that monitors the health status of Hybrid vCenter Service,Low
+Identity Health Alarm,Identity service alarm to monitor health status,Low
+Identity Source LDAP Certificate is about to expire,Renew Identity Source LDAP Certificate,Low
+Image Builder Disk Exhaustion on vc01,Alarm that monitors vSphere Image Builder File System Resource Exhaustion. (vc01.stc.local),Low
+Image Builder Service Health Alarm,Default alarm that monitors the health status of Image Builder Service.,Low
+Improved virtual disk infrastructure namespaces storage policy alarm,Default alarm to monitor improved virtual disk infrastructure namespace storage policy status on the host.,Low
+Insufficient vSphere HA failover resources,Default alarm to alert when there are insufficient cluster resources for vSphere HA to guarantee failover,Medium
+Key Management Server Health Status Alarm,Alarm to indicate that key management server is not reachable,Medium
+Key Provider Not Backed Up,Alarm to indicate that one or more key providers require backup.,Medium
+KMS Client Certificate Status,This alarm indicates that the KMS client certificate is getting close to its expiration date.,Medium
+KMS Server Certificate Status,This alarm indicates that the KMS server certificate is getting close to its expiration date.,Medium
+License capacity monitoring,Default alarm to monitor if a license capacity is exceeded,Low
+License error,Default alarm to monitor license errors,Medium
+License inventory monitoring,Default alarm to monitor if license inventory is not compliant,Low
+License user threshold monitoring,Default alarm to monitor if a user-defined license threshold is exceeded,Low
+Log Disk Exhaustion on vc01,Alarm that monitors vSphere Log File System Resource Exhaustion. (vc01.stc.local),Low
+Memory Exhaustion on vc01,Alarm that monitors vSphere Memory Resource Exhaustion. (vc01.stc.local),Low
+Message Bus Config Health Alarm,Message Bus Config service alarm to monitor health status,Low
+Migration error,"Default alarm to monitor if a virtual machine cannot migrate, relocate, or is orphaned",Low
+Network connectivity lost,Default alarm to monitor network connectivity on a virtual switch,High
+Network uplink redundancy degraded,Default alarm to monitor network uplink redundancy degradation on a virtual switch,Medium
+Network uplink redundancy lost,Default alarm to monitor loss of network uplink redundancy on a virtual switch,Medium
+No compatible host for Secondary VM,Default alarm to monitor if no compatible hosts are available to place Secondary VM,Medium
+Object type storage alarm,Default alarm that is triggered when a VASA provider raises an Object type alarm on an entity backing the datastore,Medium
+Performance Charts Service Health Alarm,Performance Charts Service alarm to monitor health status,Low
+PostgreSQL Archiver Service Health Alarm,Default alarm that monitors the health status of PostgreSQL Archiver Service.,Low
+PostgreSQL Service Health Alarm,Default alarm that monitors the health status of the PostgreSQL Service.,High
+PSC Service Health Alarm.,Default alarm that monitors the health status of PSC Service.,High
+Refreshing CA certificates and CRLs for a VASA provider failed,Default alarm that monitors whether the refreshing of CA certificates and CRLs for some of the VASA providers has failed.,Low
+Registration/unregistration of a VASA vendor provider on a vSAN host fails,Default alarm that monitors whether the registration or unregistration of a VASA vendor provider on a vSAN host fails.,Low
+Registration/unregistration of third-party IO filter storage providers fails on a host,Default alarm that monitors whether vCenter Server fails to register or unregister third-party IO filter storage providers on a host.,Low
+Root Disk Exhaustion on vc01,Alarm that monitors vSphere Root File System Resource Exhaustion. (vc01.stc.local),Low
+Root FS health,Default alarm to monitor changes for the health test 'Root FS health',Medium
+SEAT Disk Exhaustion on vc01,"Alarm that monitors vSphere Stats, events, alarms, and tasks File System Resource Exhaustion. (vc01.stc.local)",Low
+Service Control Agent Health Alarm,Alarm that is triggered when the Service Control Agent is not reachable.,Medium
+Skyline Health has detected issues in your vSphere environment,This alarm is fired when vSphere Health detects new issues in your environment. This alarm will be retriggered even if acknowledged when new issues are detected. Go to Monitor -> Health for a detailed description of the issues.,Medium
+Status of other host hardware objects,Default alarm to monitor objects.  See the host's Hardware Status tab for more details.,High
+Storage DRS is not supported on a host,Alarm that monitors and alerts when Storage DRS is not supported on a host,Low
+STS Signing Certificates are about to expire,"Renew STS Signing Certificates, follow https://kb.vmware.com/s/article/79248",Medium
+The host license edition is not compatible with the vCenter Server license edition,Default alarm to monitor if host license edition is not allowed,Medium
+Thin-provisioned volume capacity threshold exceeded,Default alarm that is triggered when the thin provisioning threshold on the storage array is exceeded for volume(s) backing the datastore,Medium
+Timed out starting Secondary VM,Default alarm to monitor time-outs when starting a Secondary VM,Low
+TPM Encryption Recovery Key Backup Alarm,Default alarm which indicates that host configuration is TPM encrypted. Recovery key backup may be performed in order to restore host configuration on TPM failure. https://via.vmw.com/recovery-key-alarm,Low
+Trusted Host Attestation Failed Alarm,Default alarm which indicates that a Trusted Host has failed attestation with the configured Trust Authority attestation service(s).,Low
+Trusted Infrastructure Host Decommission Alarm,"Alarm to notify that an ESX Host, moved out of a Trust Authority Cluster or Trusted Cluster, must be decommissioned.",Low
+Trusted Infrastructure Host Not Configured Alarm,"Alarm to notify that an ESX Host, member of Trust Authority Cluster or Trusted Cluster, is not configured.",Low
+Unmanaged workload detected on SIOC-enabled datastore,Default alarm that is triggered if an unmanaged I/O workload is detected on a SIOC-enabled datastore,Low
+Update Manager Disk Exhaustion on vc01,Alarm that monitors vSphere Update Manager File System Resource Exhaustion. (vc01.stc.local),Low
+Update Manager Service Health Alarm,Default alarm that monitors the health status of Update Manager Service.,Low
+VASA Provider certificate expiration alarm,Default alarm that is triggered when a VASA Provider certificate is about to expire,Low
+VASA provider disconnected,Default alarm that is triggered when a VASA provider is in a disconnected state,Low
+vCenter HA Cluster Health Alarm,Default alarm that monitors the health of vCenter HA,Medium
+vCenter HA Service Health Alarm.,Default alarm that monitors the health status of vCenter HA Service.,Medium
+vCenter Server Health Alarm,vCenter Server service alarm to monitor health status,Medium
+vCenter Server Replication State Change Alarm,This alarm indicates that the vCenter server replication state has changed,Medium
+vCenter Server Replication Status Change Alarm,This alarm indicates that the vCenter server replication status has changed,Medium
+vCenter Stats Monitor Service Health Alarm.,Default alarm that monitors the health status of vCenter Stats Monitor Service.,Medium
+VDFS daemon health,Default alarm to monitor changes for the health test 'VDFS daemon health',Low
+Virtual machine Consolidation Needed status,Default alarm that is triggered when virtual machine Consolidation Needed status is set,Medium
+Virtual machine CPU usage,Default alarm to monitor virtual machine CPU usage,Disabled
+Virtual machine error,Default alarm to monitor virtual machine error and warning events,Medium
+Virtual machine Fault Tolerance state changed,Default alarm to monitor changes in the Fault Tolerance state of a virtual machine,High
+Virtual Machine Fault Tolerance vLockStep interval Status Changed,Default Alarm to monitor changes in the Fault Tolerance Secondary vLockStep interval,Low
+Virtual Machine Locked Alarm,Alarm to indicate that the virtual machine is locked.,Medium
+Virtual machine memory usage,Default alarm to monitor virtual machine memory usage,Disabled
+Virtual Machine network adapter reservation status,Default alarm to monitor changes in the reservation status of a virtual machine network adapter,Low
+VM storage compliance alarm,Default alarm that is triggered when the virtual disk goes out of compliance with the object-based storage,Low
+VMKernel NIC not configured correctly,Default alarm for incorrectly configured VMkernel NIC,Low
+vMon API Service Health Alarm,Default alarm that monitors the health status of vMon API Service.,Low
+VMware Directory Service Health Alarm,Default alarm that monitors the health of VMware Directory Service,Medium
+VMware HTTP Reverse Proxy Service Health Alarm.,Default alarm that monitors the health status of HTTP Reverse Proxy Service.,Low
+VMware vAPI Endpoint Service Health Alarm,Default alarm that monitors the health status of the VMware vAPI Endpoint Service.,Low
+VMware vCenter-Services Health Alarm,VMware vCenter-Services alarm to monitor health status,Medium
+VMware vSphere Authentication Proxy Service Health Alarm,Default alarm that monitors the health status of VMware vSphere Authentication Proxy Service.,Low
+VMware vSphere ESXi Dump Collector Health Alarm,Default alarm that monitors the health status of the VMware vSphere ESXi Dump Collector Service.,Low
+VMware vSphere Profile-Driven Storage Service Health Alarm,Default alarm that monitors the health status of the VMware vSphere Profile-Driven Storage Service.,Low
+vService Manager Health Alarm,vService Manager service alarm to monitor health status,Low
+vSphere APIs for IO Filtering (VAIO) Filter Management Operations,Default alarm that is triggered when vSphere APIs for IO Filtering (VAIO) operations (installing/uninstalling/upgrading filters) fail for some hosts in the cluster,Low
+vSphere Client Health Alarm,vSphere Client service alarm to monitor health status,Medium
+vSphere Distributed Switch MTU matched status,Default alarm to monitor changes in vSphere Distributed Switch MTU matched status,High
+vSphere Distributed Switch MTU supported status,Default alarm to monitor changes in vSphere Distributed Switch MTU supported status,High
+vSphere Distributed Switch teaming matched status,Default alarm to monitor changes in vSphere Distributed Switch teaming matched status,High
+vSphere Distributed Switch VLAN trunked status,Default alarm to monitor changes in vSphere Distributed Switch VLAN trunked status,High
+vSphere HA failover in progress,Default alarm to alert when vSphere HA is in the process of failing over virtual machines,High
+vSphere HA host status,Default alarm to monitor health of a host as reported by vSphere HA,High
+vSphere HA virtual machine failover failed,Default alarm to alert when vSphere HA failed to failover a virtual machine,High
+vSphere HA virtual machine monitoring action,Default alarm to alert when vSphere HA reset a virtual machine,Low
+vSphere HA virtual machine monitoring error,Default alarm to alert when vSphere HA failed to reset a virtual machine,Low
+vSphere HA VM Component Protection could not power off a virtual machine,Default alarm that is triggered when vSphere HA VM Component Protection cannot power off a virtual machine with an inaccessible datastore,Low
+vSphere Health detected new issues in your environment,This alarm is fired when vSphere Health detects new issues in your environment. This alarm will be retriggered even if acknowledged when new issues are detected. Go to Monitor -> Health for a detailed description of the issues.,Medium
+vSphere UI Health Alarm,vSphere UI service alarm to monitor health status,Medium
+vSphere vCenter Host Certificate Management Mode,Alarm to monitor changes in the certificate management mode of vCenter Server,Medium
+WCP Service Health Alarm,Default alarm that monitors the health status of WCP Service.,Low
