@@ -11,6 +11,18 @@
 		Set vCenter email alerts
 #>
 
+#Set variables here
+################################################################################################
+$alarmfile = import-csv "Enter path to CSV file"                        
+$AlertEmailRecipients = @("nhuotari@hbs.net")             
+$SMTPServer = "SMTP Serever FQDN here"                                           
+$SMTPPort = "25"                                                              
+$SMTPSendingAddress = "vcenter-alerts@domain.com"                                      
+################################################################################################
+
+
+
+
 #Prompt for vCenter info
 $vcenter = Read-Host -Prompt 'Input your vCenter hostname/IP Address'
 $credential=Get-Credential
